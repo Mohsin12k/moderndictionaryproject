@@ -14,6 +14,7 @@ const para2 = document.querySelector('.para2');
 const ans1 = document.querySelector('.ans1');
 const ans2 = document.querySelector('.ans2');
 const playButton = document.querySelector('.playButton');
+const playBtn = document.querySelector('.playBtn');
 const datetime = document.querySelector('.datetime');
 
 const year = new Date();
@@ -150,5 +151,11 @@ inputValue.addEventListener('keydown', (e)=>{
         answerSection.style.transform = "translateY(0)";
         answerSection.style.opacity = "1";
         fetchData();
+    }
+});
+
+playBtn.addEventListener('keydown', (e)=>{
+    if(e.key === 'Enter') {
+        playSound();
     }
 });
