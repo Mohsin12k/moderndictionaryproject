@@ -596,6 +596,14 @@ video {
   margin-top: 1.25rem;
 }
 
+.mt-1{
+  margin-top: 0.25rem;
+}
+
+.mt-2{
+  margin-top: 0.5rem;
+}
+
 .flex{
   display: flex;
 }
@@ -614,6 +622,14 @@ video {
 
 .h-\[20\%\]{
   height: 20%;
+}
+
+.h-\[12rem\]{
+  height: 12rem;
+}
+
+.h-\[5\%\]{
+  height: 5%;
 }
 
 .min-h-screen{
@@ -822,6 +838,11 @@ video {
 
 .text-xl{
   font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-lg{
+  font-size: 1.125rem;
   line-height: 1.75rem;
 }
 
